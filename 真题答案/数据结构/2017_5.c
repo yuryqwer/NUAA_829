@@ -1,8 +1,9 @@
 #include <stdio.h>
 #define MAXSIZE 1000
 
+typedef int Elemtype;
 typedef struct {
-    int data[MAXSIZE];
+    Elemtype data[MAXSIZE];
     int length;
 } Sqlist;
 

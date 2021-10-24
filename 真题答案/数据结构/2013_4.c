@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+typedef int Elemtype;
 typedef struct Lnode {
-    int data;
+    Elemtype data;
     struct Lnode *next;
 } Lnode, *Linkedlist;
 
@@ -46,7 +47,7 @@ void ChangeListA(Linkedlist A, Linkedlist B) {
     ReverseList(A);
 }
 
-Linkedlist CreateLinkedlist (int *array, int length) {
+Linkedlist CreateLinkedlist(Elemtype *array, int length) {
     Linkedlist L = (Linkedlist)malloc(sizeof(Lnode));
     L->next = NULL;
     for (int i = length - 1; i >= 0; i--) {
@@ -59,8 +60,8 @@ Linkedlist CreateLinkedlist (int *array, int length) {
 }
 
 int main() {
-    int x[6] = {1, 2, 3, 4, 5, 6};
-    int y[3] = {0, 3, 7};
+    Elemtype x[6] = {1, 2, 3, 4, 5, 6};
+    Elemtype y[3] = {0, 3, 7};
     Linkedlist A = CreateLinkedlist(x, 6);
     Linkedlist B = CreateLinkedlist(y, 3);
     ChangeListA(A, B);
