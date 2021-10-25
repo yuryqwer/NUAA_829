@@ -26,3 +26,9 @@ https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 链接：https://pan.baidu.com/s/1HbhAOgb-jE_eN0MgA8fViQ 
 提取码：ar69
 
+### 计算机组成原理
+
+【王道】已经做了全文OCR以及目录
+
+链接：https://pan.baidu.com/s/1exni7vVoK4ChMjaCRJl0Sw 
+提取码：t4y3
