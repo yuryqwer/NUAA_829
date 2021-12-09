@@ -32,3 +32,8 @@ https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
 链接：https://pan.baidu.com/s/1exni7vVoK4ChMjaCRJl0Sw 
 提取码：t4y3
+
+### 操作系统
+
+多看汤书，把历年真题的大题都弄懂，我已经把真题按照大纲顺序进行整理，看 [这里](真题答案/操作系统/南航829操作系统.pdf)
+
